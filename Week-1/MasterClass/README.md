@@ -3,6 +3,42 @@
 
 # Design Thinking
 
+
+as in the give problem statement to solve the problem of pedestrian , bike passage and people with disabilities we have to controll the trafic flow in such a way so these pepole can cross the lane safely , so to solve this problem let see haw traffic flow normaly in A Four-Way Crossing and then we see the best possible solution to solve for smooth flow of traffic
+
+
+* A Four-Way Crossing
+
+The most common type of crossing is a four-way intersection. It generally appears in a perpendicular angle in most of the cities. In a four-way crossing,we will find four traffic signals at the front of each lane that turn green one by one. Thus a vehicle has to wait for all the three lanes to pass before the signal turns green. As the signal turns green the vehicle is allowed to move forward (straight) and to its right, and in certain cases it can also move left even when the signal is red.
+
+
+![image](../MasterClass/4wayTraffic.jpg)
+
+
+* Smart Crossing for smooth flow of traffic
+
+In the existing 4-phase crossing, a vehicle has to wait for all the three sides to pass before the signal turns green. This results in elongated queues and congestion at every lane. Smart Crossing converts this conventional  4-phase traffic signal to 2 phase traffic signal, by turning the two opposite signals green at a time. It prohibits to take a right turn, resulting in a smooth flow of traffic from two opposite lanes at a time. In order to turn right from the crossing, one has to take a c-turn (which is nothing but a left turn followed by a u-turn) as shown in the diagram below.
+
+![image](../MasterClass/4waySalution.jpg)
+
+
+
+
+## benifit of using smart Crossing 
+
+
+* reduction in traffic congestion
+* it also solves the problem of long waiting time at the signals and yield confusions
+* it require minimal infrastructural changes
+* it help pedestrian,people with disabilities etc. to cross lane safely
+* Traffic congestion reduction by upto 80%
+* Air pollution due to traffic reduced by upto 50%
+* Chances of getting green light increased by upto 50%
+
+
+
+
+
 ![image](../MasterClass/4lane.png)
 
 
@@ -16,15 +52,6 @@
 
  - if signal is red then can cross the lane 
  - if signal is green then they have to wait till signal cross the lane 
-
-
-
-
-
-
-
-
-
 
 
 
