@@ -1,0 +1,71 @@
+.Container{
+  position: absolute;;
+    left: 50%;
+    top: 50%;
+transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 600;
+}
+.Wrapper{
+    display: flex;
+}
+.box{
+width: 90px;
+height: 90px;
+transition: transform 1s linear;
+}
+
+
+#box1{
+background-color: red;
+  transform-origin: top left;
+}
+#box2{
+background-color: blue;
+transform-origin: bottom left;
+}
+#box3{
+background-color: yellow;
+transform-origin: top right;
+}
+#box4{
+background-color: green;
+transform-origin: bottom right;
+}
+.Container:hover .boxRed {
+transition: all;
+transition-duration: 2s;
+transform: rotate(90deg);
+cursor: pointer;
+}
+.Container:hover .boxBlue {
+transition: all;
+transition-duration: 2s;
+transform:  rotate(-90deg);
+cursor: pointer;
+}
+.Container:hover .boxYellow {
+transition: all;
+    transition-duration: 2s;
+    transform: rotate(-90deg) ;
+  cursor: pointer;
+}
+.Container:hover .boxGreen {
+transition: all;
+    transition-duration: 2s;
+    transform:  rotate(90deg) ;
+  cursor: pointer;
+}
+
+.Container .box{
+  transition: all;
+transition-duration: 1s;
+transform: translateX(0px) rotate(0deg);
+cursor: pointer;
+}
+.Container .box2 {
+  transition: all;
+transition-duration: 1s;
+transform: translateX(0px) rotate(0deg);
+cursor: pointer;
+}
