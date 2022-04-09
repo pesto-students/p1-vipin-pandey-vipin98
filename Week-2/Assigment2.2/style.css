@@ -1,0 +1,110 @@
+header {
+    text-align: center;
+}
+
+.ArticalSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "header"
+        "main"
+        "section"
+        "footer";
+
+}
+
+.Section {
+    width: auto;
+    padding: 40px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    margin-top: 25px;
+    width: 100%;
+}
+
+li {
+    text-align: unset;
+}
+
+.FormSection {
+    padding: 20px;
+}
+
+input {
+    width: 40%;
+    margin: 14px 0px;
+    padding: 8px 10px;
+
+}
+
+button {
+    width: 100px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: brown;
+    color: azure;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.FooterSection {
+    width: 100%;
+    background-color: whitesmoke;
+    border-top: 1px solid black;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.FooterSectionLeft {
+    width: 50%;
+}
+
+.FooterSectionRight {
+    width: 50%;
+}
+
+@media only screen and (max-width: 550px) {
+    .ArticalSection {
+        grid-template-columns: auto;
+        grid-template-areas:
+            "header"
+            "main"
+            "section"
+            "footer"
+
+    }
+
+    .Section {
+        padding: 10px;
+    }
+
+    input {
+        width: 100%;
+
+    }
+
+    .FooterSectionLeft {
+        width: 100%;
+    }
+
+    .FooterSectionRight {
+        width: 100%;
+    }
+
+    /* .FooterSection {
+        grid-template-columns: auto;
+    } */
+}
