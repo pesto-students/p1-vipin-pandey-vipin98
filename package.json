@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/pesto-students/p1-vipin-pandey-vipin98#readme",
   "dependencies": {
-    "jest": "^28.0.2"
+    "axios": "^0.27.2",
+    "jest": "^28.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-toastify": "^9.0.3"
   }
 }
