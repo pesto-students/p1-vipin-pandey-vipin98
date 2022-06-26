@@ -1,0 +1,112 @@
+body{
+font-family: 'Lato', sans-serif;
+margin: 0px;
+padding: 0px;
+width: 100%;
+height: auto;
+box-sizing: border-box;
+
+}
+.Container{
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+    padding: 12px;
+    /* overflow-y: scroll; */
+}
+nav>i{
+    cursor: pointer;
+}
+.MainContainer{
+    width: 100%;
+}
+.AlbumContainer{
+    display: flex;
+    width:auto;
+    height: 30%;
+    background-color: #4E4E4E;
+    color: white;
+    padding: 50px;
+    /* box-sizing:border-box; */
+
+}
+.AlbumContainer > img{
+    width: 210px;
+    height: 200px;
+}
+.AlbumHeading{
+    margin-left: 50px;
+    line-height: 2.2rem;
+    text-align: left;
+}
+.AlbumHeading >span{
+   display: flex;
+   align-items: center;
+}
+
+.AlbumHeading >span>p{
+    margin:0px 5px;
+   cursor: pointer;
+
+}
+.PlaylistContainer{
+padding: 10px 0px;
+width: 100%;
+height:43vh;
+ box-sizing: border-box;
+}
+.PlaylistContainer>span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.PlaylistContainer>span>button{
+    color: blue;
+    padding: 8px 8px;
+    border:1px solid black;
+    cursor: pointer;
+
+}
+.PlaylistBackgroud{
+    background-color: #F2F2F2;
+}
+.PlayerContainer{
+    width: 100%;
+    height: 15%;
+    padding: 0px 10px;
+    background-color: #4373A4;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.PlayerDetails{
+    width: 100%;
+     display: flex;
+     margin-left: 15px;
+     line-height: 12px;
+     
+}
+.PlayerSongImg >img{
+    width: 80px;
+}
+.PlayerSongDetail{
+    margin-left: 12px;
+}
+.PlayerContainer >span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.PlayerContainer >span>i{
+    width: 20px;
+    cursor: pointer;
+}

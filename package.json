@@ -1,0 +1,26 @@
+{
+  "name": "p1-vipin-pandey-vipin98",
+  "version": "1.0.0",
+  "description": "Welcome to Pesto assignments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pesto-students/p1-vipin-pandey-vipin98.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pesto-students/p1-vipin-pandey-vipin98/issues"
+  },
+  "homepage": "https://github.com/pesto-students/p1-vipin-pandey-vipin98#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jest": "^28.0.2",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-router-dom": "^6.3.0",
+    "react-toastify": "^9.0.3"
+  }
+}

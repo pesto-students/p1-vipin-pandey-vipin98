@@ -1,0 +1,22 @@
+html,
+body,
+#root,
+.Container {
+  height: 100%;
+  margin: 40px;
+  text-align: center;
+  font-size: 15px;
+}
+button {
+  padding: 12px 55px;
+  font-size: 15px;
+  margin: 12px;
+  border: none;
+  cursor: pointer;
+}
+.Addbtn {
+  background-color: blueviolet;
+}
+.Resetbtn {
+  background-color: gray;
+}
